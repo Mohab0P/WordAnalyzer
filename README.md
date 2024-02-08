@@ -32,7 +32,7 @@ Note: Using assertions does not fix your bugs. It simply gives a more accurate r
 
 
 
-<h3>Exercise 3: Using logging statements.<h3>
+<h3>Exercise 3: Using logging statements.</h3>
 <ol><p>The WordAnalyzerTester3 class tests firstMultipleCharacter method that is part of WordAnalyzer class. This method returns the first multiple occurring character in a word in adjacent positions, such as i in missisippi, but it contains a bug.</p></ol>
 <li>Which input to the firstMultipleCharacter method does not yield the expected result??</li>
 <li>Use logging to find the problem. Add appropriate logging statements at appropriate places of the find method. What is the code of your find method??</li>
