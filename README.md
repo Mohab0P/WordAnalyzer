@@ -7,7 +7,7 @@ Download the source files WordAnalyzer.java, WordAnalyzerTester1.java, WordAnaly
 
 
 
-Exercise 1: Using assertions. 
+<h1>Exercise 1: Using assertions.</h1>
 The WordAnalyzerTester1 class tests firstRepeatedCharacter method that is part of WordAnalyzer class. This method returns the first repeated character in a word in adjacent positions, such as o in roommate, but it contains a bug.
 	Without running the program, predict the output assuming the firstRepeatedCharacter method works correctly.
 	Run the program. What output do you get?
