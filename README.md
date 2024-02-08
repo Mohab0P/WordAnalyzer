@@ -23,22 +23,22 @@ Note: Using assertions does not fix your bugs. It simply gives a more accurate r
 
 
 <h2>Exercise 2: Using a debugger.</h2>
-The WordAnalyzerTester2 class tests countRepeatedCharacters method that is part of WordAnalyzer class. This method counts the groups of repeated characters. For example, the word mississippiii has a count of 4. However, the method contains a bug.
-	Run WordAnalyzerTester2. What output do you get? Does it always yield the expected result?
-	Set a breakpoint at the method call that does not yield the expected result and launch the debugger.
-	Execute the "Step Into" command and try to find and fix the bug. What is the code of your countRepeatedCharacters method now?
-	Run WordAnalyzerTester2 again. What is the output now?
+<ol><p>The WordAnalyzerTester2 class tests countRepeatedCharacters method that is part of WordAnalyzer class. This method counts the groups of repeated characters. For example, the word mississippiii has a count of 4. However, the method contains a bug.</p></ol>
+<li>Run WordAnalyzerTester2. What output do you get? Does it always yield the expected result?</li>
+<li>Set a breakpoint at the method call that does not yield the expected result and launch the debugger.</li>
+<li>Execute the "Step Into" command and try to find and fix the bug. What is the code of your countRepeatedCharacters method now??</li>
+<li>Run WordAnalyzerTester2 again. What is the output now??</li>
 
 
 
 
 <h3>Exercise 3: Using logging statements.<h3>
-The WordAnalyzerTester3 class tests firstMultipleCharacter method that is part of WordAnalyzer class. This method returns the first multiple occurring character in a word in adjacent positions, such as i in missisippi, but it contains a bug.
-	Which input to the firstMultipleCharacter method does not yield the expected result?
-	Use logging to find the problem. Add appropriate logging statements at appropriate places of the find method. What is the code of your find method?
-	What output do you get when you run the WordAnalyzerTester3 class?
-	Look at the logging messages. Explain why the firstMultipleCharacter method does not work.
-	You can fix the problem by modifying either the firstMultipleCharacter method or the find method. Fix the problem. What fix did you make?  
-	Run the program again. What output do you get now?
-	Write your logging statements to an external file. 
-	Now you no longer need the logging messages. Add the appropriate statement to turn them off.
+<ol><p>The WordAnalyzerTester3 class tests firstMultipleCharacter method that is part of WordAnalyzer class. This method returns the first multiple occurring character in a word in adjacent positions, such as i in missisippi, but it contains a bug.</p></ol>
+<li>Which input to the firstMultipleCharacter method does not yield the expected result??</li>
+<li>Use logging to find the problem. Add appropriate logging statements at appropriate places of the find method. What is the code of your find method??</li>
+<li>What output do you get when you run the WordAnalyzerTester3 class??</li>
+<li>	Look at the logging messages. Explain why the firstMultipleCharacter method does not work.?</li>
+<li>You can fix the problem by modifying either the firstMultipleCharacter method or the find method. Fix the problem. What fix did you make?  ?</li>
+<li>Run the program again. What output do you get now??</li>
+<li>Write your logging statements to an external file. ?</li>
+<li>	Now you no longer need the logging messages. Add the appropriate statement to turn them off.?</li>
