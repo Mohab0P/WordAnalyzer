@@ -20,7 +20,7 @@ public class WordAnalyzer
     */
    public char firstRepeatedCharacter()
    {
-      for (int i = 0; i < word.length(); i++)
+      for (int i = 0; i < word.length()-1; i++)
       {
          char ch = word.charAt(i);
          if (ch == word.charAt(i + 1))
