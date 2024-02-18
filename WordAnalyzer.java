@@ -1,6 +1,7 @@
 /**
  * A class that analyzes words.
  */
+
 public class WordAnalyzer
 {
    /**
@@ -18,11 +19,10 @@ public class WordAnalyzer
     * 'l' is repeated in "hollow", but 'o' is not.
     * @return the first repeated character, or 0 if none found
     */
-   public char firstRepeatedCharacter()
-   {
-      for (int i = 0; i < word.length()-1; i++)
-      {
+   public char firstRepeatedCharacter(){
+      for (int i = 0; i < word.length()-1; i++){
          char ch = word.charAt(i);
+         assert i++ < word.length(): "Index out of bounds"; 
          if (ch == word.charAt(i + 1))
             return ch;
       }
@@ -30,7 +30,7 @@ public class WordAnalyzer
    }
 
    /**
-    * Gets the first multiply occuring character. A character is <i>multiple</i>
+    * Gets the first multiply occurring character. A character is <i>multiple</i>
     * if it occurs at least twice in the word, not necessarily in adjacent positions.
     * For example, both 'o' and 'l' are multiple in "hollow", but 'h' is not.
     * @return the first repeated character, or 0 if none found
